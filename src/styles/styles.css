@@ -2,3 +2,67 @@ body {
     font-family: 'Gilroy', sans-serif; 
 }
 
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    padding: 40px 0px 40px 0px;
+}
+
+.nav-header{
+    display: flex;
+    gap: 40px;
+    justify-content: space-around;
+
+    font-size: var(--font-body-size);
+    font-weight: var(--font-body-weight);
+    transition: 0.3s;
+}
+
+.nav-header a:hover{
+    color: var(--color-primary);
+}
+
+.logo-header > p {
+    color: rgb(0, 0, 0, 0.6);
+    font-size: 24px;
+    font-weight: var(--font-body-weight);
+    color: var(--color-primary);
+
+    text-transform: uppercase;
+    text-decoration: underline solid 1.4px;
+    text-underline-offset: 10px ;
+
+    cursor: pointer;
+}
+
+.group-btn-header{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.btn-icon-header {
+    display: flex;
+    gap: 16px;
+}
+
+.btn-icon {
+    cursor: pointer;
+    background-color: var(--color-neutral-white);
+    width: 100%;
+}
+
+.btn-login > button{
+    font-size: var(--font-button-size);
+    font-weight: var(--font-body-weight);
+    color: var(--color-primary);
+
+    background-color: var(--color-neutral-white);
+    border: solid var(--color-primary) 1px;
+    border-radius: 10px;
+    padding: 16px 32px;
+
+    cursor: pointer;
+}
