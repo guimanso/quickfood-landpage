@@ -51,16 +51,17 @@ h1 {
 
 :root{
     --color-neutral--black: #000000;
+    --colo-neutral--black-opacity: rgb(0, 0, 0, 0.6);
     --color-neutral-grey: #999999;
     --color-neutral-white: #FFFFFF;
     --color-bg-overlay: #FAFAFA;
     --color-primary: #00A000;
 
     --font: 'Gilroy', 'sans-serif';
-    --font-headline-1-size: 50px;
+    --font-headline-1-size: 60px;
     --font-headline-1-weight: bold;
 
-    --font-headline-2-size: 48px;
+    --font-headline-2-size: 40px;
     --font-headline-2-weight: bold;
 
     --font-headline-3-size: 28px;
