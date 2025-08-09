@@ -44,6 +44,16 @@ h1 {
     font-size: var(--font-headline-1-size);
 }
 
+h2 {
+    font-size: var(--font-headline-2-size);
+    font-weight: var(--font-headline-2-weight);
+}
+
+h3 {
+    font-size: var(--font-headline-4-size);
+    font-weight: var(--font-headline-4-weight);
+}
+
 @font-face {
     font-family: 'Gilroy';
     src: url('Caminho/Gilroy.ttf') format('ttf');         
