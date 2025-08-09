@@ -399,3 +399,44 @@ main {
     height: 50px;
 }
 
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 100px 0px;
+    background-color: var(--color-primary);
+}
+
+.logo-footer {
+    color: var(--color-neutral-white);
+    font-family: var(--font-gilroy-medium);
+    font-size: var(--font-body-size);
+    font-weight: var(--font-body-weight);
+
+    text-transform: uppercase;
+    text-decoration: underline solid 1.4px;
+    text-underline-offset: 10px ;
+
+    cursor: pointer;
+}
+
+.logo-footer p {
+    color: var(--color-neutral-white);
+}
+
+.content-footer {
+    display: flex;
+}
+
+.content-links-footer {
+    display: flex;
+    gap: 70%;
+}
+
+.content-links-footer h2 {
+    font-size: 18px;
+    color: var(--color-neutral-white);
+    padding-bottom: 24px;
+}
+
+
+
