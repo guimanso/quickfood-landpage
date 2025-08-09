@@ -66,3 +66,29 @@ header{
 
     cursor: pointer;
 }
+
+main {
+    display: flex;
+    padding: 100px 100px;
+    gap: 124px;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-main {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.text-h1 {
+    color: var(--color-primary);
+}
+
+.button-order {
+    margin-right: 24px;
+}
+
+.img-main  {
+    width: 100%;
+}
