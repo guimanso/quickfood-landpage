@@ -73,9 +73,10 @@ header{
 
 main {
     display: flex;
-    padding: 6%;
+    justify-content: center;
     gap: 10%;
     align-items: center;
+    margin: 100px 10%;
 }
 
 .content-main {
@@ -93,14 +94,14 @@ main {
 }
 
 .img-main {
-    width: 150%;
+    height: 100%
 }
 
 .img-main > img {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 400x;
 }
 
 .sobrenos {
@@ -183,3 +184,68 @@ main {
     font-weight: var(--font-headline-2-weight);
 }
 
+.plates {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: var(--color-neutral-white);
+    margin: 100px;
+}
+
+.content-plates{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.content-plates > h2{
+    font-size: var(--font-headline-2-size);
+    font-weight: var(--font-headline-2-weight);
+}
+
+.group-cards-plates {
+    display: flex;
+    gap: 20px;
+}
+
+.card-plate {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px;
+    gap: 16px;
+}
+
+.card-plate > p {
+    color: var(--color-neutral-grey);
+    line-height: 20px;
+}
+
+.image-card-plate {
+    width: 180px;
+    height: 180x;
+    margin-bottom: 20px;
+}
+
+.image-solo-plate{
+    width: 140px;
+    height: 142px;
+}
+
+.image-card-plate > img {
+    width: 100%;
+}
+
+.button-now{
+    width: 100%;
+    max-width: 350px;
+    height: 40px;
+    border-radius: 8px;
+    background-color: var(--color-primary);
+
+    font-size: var(--font-button-size);
+    font-size: var(--font-headline-2-weight);
+    color: var(--color-neutral-white);
+
+    cursor: pointer;
+}
