@@ -70,7 +70,7 @@ header{
 main {
     display: flex;
     padding: 6%;
-    gap: 124px;
+    gap: 10%;
     align-items: center;
 }
 
@@ -89,7 +89,13 @@ main {
 }
 
 .img-main {
-    width: 550px;
-    height: 400px;
+    width: 150%;
+}
+
+.img-main > img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 }
 
