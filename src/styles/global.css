@@ -9,6 +9,7 @@
 }
 
 .button-default{
+    font-family: var(--font-gilroy-medium);
     font-size: var(--font-button-size);
     font-weight: var(--font-body-weight);
     color: var(--color-primary);
@@ -22,6 +23,7 @@
 }
 
 .button-secondary{
+    font-family: var(--font-gilroy-medium);
     font-size: var(--font-button-size);
     font-weight: var(--font-body-weight);
     color: var(--color-neutral-white);
@@ -34,29 +36,51 @@
 }
 
 p {
-    line-height: 30px;
-    word-spacing: 4px;
-    color: rgb(0, 0, 0, 0.6);
+    font-family: var(--font-gilroy-light);
+    color: var(--color-neutral-grey);
 }
 
 h1 {
+    font-family: var(--font-gilroy-bold);
     color: var(--color-neutral--black);
     font-size: var(--font-headline-1-size);
 }
 
 h2 {
+    font-family: var(--font-gilroy-bold);
     font-size: var(--font-headline-2-size);
     font-weight: var(--font-headline-2-weight);
 }
 
 h3 {
+    font-family: var(--font-gilroy-bold);
     font-size: var(--font-headline-4-size);
     font-weight: var(--font-headline-4-weight);
 }
 
 @font-face {
     font-family: 'Gilroy';
-    src: url('Caminho/Gilroy.ttf') format('ttf');         
+    src: url('Caminho/Gilroy.ttf') format('truetype');         
+}
+
+@font-face {
+    font-family: 'Gilroy Bold';
+    src: url('../assets/fonts/Gilroy-Bold.ttf') format('truetype');         
+}
+
+@font-face {
+    font-family: 'Gilroy Heavy';
+    src: url('../assets/fonts/Gilroy-Heavy.ttf') format('truetype');         
+}
+
+@font-face {
+    font-family: 'Gilroy Medium';
+    src: url('../assets/fonts/Gilroy-Medium.ttf') format('truetype');         
+}
+
+@font-face {
+    font-family: 'Gilroy Light';
+    src: url('../assets/fonts/Gilroy-Light.ttf') format('truetype');         
 }
 
 :root{
@@ -68,6 +92,11 @@ h3 {
     --color-primary: #00A000;
 
     --font: 'Gilroy', 'sans-serif';
+    --font-gilroy-bold: 'Gilroy Bold', 'sans-serif';
+    --font-gilroy-heavy: 'Gilroy Heavy', 'sans-serif';
+    --font-gilroy-light: 'Gilroy Light', 'sans-serif';
+    --font-gilroy-medium: 'Gilroy Medium', 'sans-serif';
+
     --font-headline-1-size: 60px;
     --font-headline-1-weight: bold;
 
@@ -77,7 +106,7 @@ h3 {
     --font-headline-3-size: 28px;
     --font-headline-3-weight: bold;
 
-    --font-headline-4-size: 20px;
+    --font-headline-4-size: 24px;
     --font-headline-4-weight: 600;
 
     --font-body-size: 18px;

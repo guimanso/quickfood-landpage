@@ -16,13 +16,14 @@ header{
     gap: 40px;
     justify-content: space-around;
 
-    font-size: var(--font-body-size);
-    font-weight: var(--font-body-weight);
     transition: 0.3s;
 }
 
 .nav-header > a {
     color: var(--color-neutral-grey);
+    font-family: var(--font-gilroy-light);
+    font-size: 16px;
+    font-weight: var(--font-body-weight);
 }
 
 .nav-header a:hover{
@@ -31,8 +32,10 @@ header{
 
 .logo-header > p {
     color: var(--color-neutral-black-opacity);
-    font-size: 24px;
+    font-family: var(--font-gilroy-medium);
+    font-size: var(--font-body-size);
     font-weight: var(--font-body-weight);
+
     color: var(--color-primary);
 
     text-transform: uppercase;
@@ -60,8 +63,7 @@ header{
 }
 
 .btn-login > button{
-    font-size: var(--font-button-size);
-    font-weight: var(--font-body-weight);
+    font-family: var(--font-gilroy-light);
     color: var(--color-primary);
 
     background-color: var(--color-neutral-white);
@@ -89,7 +91,7 @@ main {
 }
 
 .content-main > p {
-    margin-right: 100px;
+    width: 400px;
 }
 
 .text-h1 {
@@ -111,7 +113,7 @@ main {
     width: 400x;
 }
 
-.sobrenos {
+.beneficios {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -119,19 +121,19 @@ main {
     padding: 100px;
 }
 
-.title-sobrenos{
+.title-beneficios{
     display: flex;
     flex-direction: column;
     text-align: center;
     gap: 7px;
 }
 
-.title-sobrenos > h2 {
+.title-beneficios > h2 {
     font-size: var(--font-headline-2-size);
     font-weight: var(--font-headline-2-weight);
 }
 
-.card-group-sobrenos{
+.card-group-beneficios{
     display: flex;
     text-align: center;
     gap: 40px;
@@ -139,36 +141,35 @@ main {
 
 }
 
-.card-sobrenos{
+.card-beneficios{
     display: flex;
     flex-direction: column;
     gap: 40px;
     padding: 0 4%;
 }
 
-.card-sobrenos > img {
+.card-beneficios > img {
     width: 100%;
 }
 
-.image-card-sobrenos {
+.image-card-beneficios {
     width: 200px;
     height: 200px;
 }
 
-.text-card-sobrenos {
+.text-card-beneficios {
     display: flex;
     flex-direction: column;
     gap: 8px;
 }
 
-.text-card-sobrenos > p {
+.text-card-beneficios > p {
     color: var(--color-neutral-grey);
     line-height: 20px;
 }
 
-.text-card-sobrenos > h3 {
-    font-size: var(--font-headline-4-size);
-    font-weight: var(--font-headline-4-weight);
+.text-card-beneficios > h3 {
+    font-family: var(--font-gilroy-medium);
 }
 
 .customer-assessment {
@@ -186,8 +187,8 @@ main {
 }
 
 .avaliation > h2 {
-    font-size: var(--font-headline-2-size);
-    font-weight: var(--font-headline-2-weight);
+    font-family: var(--font-gilroy-bold);
+
 }
 
 .plates {
@@ -205,6 +206,7 @@ main {
 }
 
 .content-plates > h2{
+    font-family: var(--font-gilroy-bold);
     font-size: var(--font-headline-2-size);
     font-weight: var(--font-headline-2-weight);
 }
@@ -307,6 +309,10 @@ main {
     margin: 33px;
 }
 
+.text-card-client > h3 {
+    font-family: var(--font-gilroy-medium);
+}
+
 .text-card-client > p {
     line-height: 20px;
     color: var(--color-neutral-grey);
@@ -314,4 +320,28 @@ main {
 
 .card-client:hover{
     transform: translateY(-20px);
+}
+
+.about-us {
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+    gap: 82px;
+}
+
+.content-about-us{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.content-about-us p{
+    word-spacing: normal;
+    width: 515px;
+    font-family: 'Gilroy Light';
+}
+
+.image-about-us img {
+    width: 600px;
+    height: 400px;
 }
