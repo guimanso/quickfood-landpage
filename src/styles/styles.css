@@ -6,6 +6,7 @@ header{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    background-color: var(--color-bg-overlay);
 
     padding: 40px 0px 40px 0px;
 }
@@ -74,15 +75,21 @@ header{
 main {
     display: flex;
     justify-content: center;
-    gap: 10%;
+    gap: 124px;
     align-items: center;
-    margin: 100px 10%;
+    padding: 100px;
+
+    background-color: var(--color-bg-overlay);
 }
 
 .content-main {
     display: flex;
     flex-direction: column;
     gap: 32px;
+}
+
+.content-main > p {
+    margin-right: 100px;
 }
 
 .text-h1 {
@@ -109,8 +116,7 @@ main {
     flex-direction: column;
     align-items: center;
     gap: 60px;
-    margin-top: 100px;
-    margin-bottom: 100px;
+    padding: 100px;
 }
 
 .title-sobrenos{
@@ -248,4 +254,11 @@ main {
     color: var(--color-neutral-white);
 
     cursor: pointer;
+}
+
+.clients{
+    display: flex;
+    padding: 100px;
+
+    background-color: var(--color-bg-overlay);
 }
