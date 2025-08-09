@@ -20,12 +20,16 @@ header{
     transition: 0.3s;
 }
 
+.nav-header > a {
+    color: var(--color-neutral-grey);
+}
+
 .nav-header a:hover{
     color: var(--color-primary);
 }
 
 .logo-header > p {
-    color: rgb(0, 0, 0, 0.6);
+    color: var(--color-neutral-black-opacity);
     font-size: 24px;
     font-weight: var(--font-body-weight);
     color: var(--color-primary);
@@ -97,5 +101,85 @@ main {
     justify-content: center;
     align-items: center;
     width: 100%;
+}
+
+.sobrenos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.title-sobrenos{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 7px;
+}
+
+.title-sobrenos > h2 {
+    font-size: var(--font-headline-2-size);
+    font-weight: var(--font-headline-2-weight);
+}
+
+.card-group-sobrenos{
+    display: flex;
+    text-align: center;
+    gap: 40px;
+    margin: 0 8%;
+
+}
+
+.card-sobrenos{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 0 4%;
+}
+
+.card-sobrenos > img {
+    width: 100%;
+}
+
+.image-card-sobrenos {
+    width: 200px;
+    height: 200px;
+}
+
+.text-card-sobrenos {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.text-card-sobrenos > p {
+    color: var(--color-neutral-grey);
+    line-height: 20px;
+}
+
+.text-card-sobrenos > h3 {
+    font-size: var(--font-headline-4-size);
+    font-weight: var(--font-headline-4-weight);
+}
+
+.customer-assessment {
+    display: flex;
+    gap: 20px;
+    margin-top: 60px;
+}
+
+.avaliation {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 8px;
+    padding: 0 100px;
+}
+
+.avaliation > h2 {
+    font-size: var(--font-headline-2-size);
+    font-weight: var(--font-headline-2-weight);
 }
 
