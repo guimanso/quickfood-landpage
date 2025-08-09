@@ -69,9 +69,8 @@ header{
 
 main {
     display: flex;
-    padding: 100px 100px;
+    padding: 6%;
     gap: 124px;
-    justify-content: center;
     align-items: center;
 }
 
@@ -89,6 +88,8 @@ main {
     margin-right: 24px;
 }
 
-.img-main  {
-    width: 100%;
+.img-main {
+    width: 550px;
+    height: 400px;
 }
+
