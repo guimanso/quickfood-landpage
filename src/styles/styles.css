@@ -447,11 +447,11 @@ footer {
 
 .icon-social{
     display: flex;
-    gap: 16px;
+    gap: 18px;
 }
 
 .icon-social img {
-    border: solid var(--color-neutral-white) 2px ;
+    border: solid var(--color-neutral-white) 1.5px ;
     border-radius: 100%;
     padding: 4px;
     width: 24px;
