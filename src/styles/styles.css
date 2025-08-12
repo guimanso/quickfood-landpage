@@ -62,17 +62,22 @@ header{
     width: 100%;
 }
 
-.btn-login > button{
-    font-family: var(--font-gilroy-light);
-    color: var(--color-primary);
-
-    background-color: var(--color-neutral-white);
-    border: solid var(--color-primary) 1px;
-    border-radius: 10px;
-    padding: 16px 32px;
-
-    cursor: pointer;
+.icon-search path{
+    transition: 0.3s;
 }
+
+.icon-search:hover path {
+    stroke: var(--color-primary)
+}
+
+.icon-shoppcar path{
+    transition: 0.3s;
+}
+
+.icon-shoppcar:hover path {
+    stroke: var(--color-primary);
+}
+
 
 main {
     display: flex;
@@ -256,6 +261,13 @@ main {
     color: var(--color-neutral-white);
 
     cursor: pointer;
+    transition: 0.3s;
+}
+
+.button-now:hover{
+    color: var(--color-primary);
+    background-color: var(--color-neutral-white);
+    border: solid var(--color-primary) 1px;    
 }
 
 .clients{
@@ -298,8 +310,21 @@ main {
     background-color: var(--color-neutral-white);
     border-radius: 16px;
 
-    transition: 0.3s;
     cursor: pointer;
+    transition: 0.3s;
+}
+
+.card-client:hover {
+    transform: scale(1.1);
+    outline: solid var(--color-primary) 1px;
+}
+
+.card-client:hover h3 {
+    color: var(--color-primary);
+}
+
+.card-client:hover p {
+    color: var(--color-neutral-black);
 }
 
 .text-card-client{
