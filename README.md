@@ -48,7 +48,7 @@ QuickFood é uma landpage que desenvolvi a partir de um template no Figma deseno
 ## 🎨 Layout
 
 <!-- AQUI VOCÊ PASSA O CAMINHO DA IMAGEM -->
-![Mobile1]([https://github.com/MatheusAlvarez/Nexcent/blob/main/src/assets/images/Thumbnail.png](https://github.com/guimanso/quickfood-landpage/blob/master/src/assets/images/tumb-git.png?raw=true))
+![Mobile1](https://github.com/guimanso/quickfood-landpage/blob/master/src/assets/images/tumb-git.png)
 
 ---
 
