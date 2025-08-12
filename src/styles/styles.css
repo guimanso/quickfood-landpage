@@ -409,40 +409,39 @@ main {
 
 footer {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: initial;
     gap: 40px;
-    padding: 100px 0px;
+
+    width: 100%;
+    padding: 100px 100px;
+
     background-color: var(--color-primary);
 }
 
 .content-footer {
     display: flex;
     gap: 24px;
-    min-width: 300px;
-    width: 100%;
-    margin: 0px 100px;
+}
+
+.logo-footer p {
+    color: var(--color-neutral-black-opacity);
+    font-family: var(--font-gilroy-medium);
+    font-size: 24px;
+    font-weight: var(--font-body-weight);
+
+    color: var(--color-neutral-white);
+
+    text-transform: uppercase;
+    text-decoration: underline solid 2px;
+    text-underline-offset: 10px ;
 }
 
 .social-footer{
     display: flex;
     flex-direction: column;
     gap: 24px;
-    width: 30%;
-}
-
-.logo-footer {
-    color: var(--color-neutral-white);
-    font-family: var(--font-gilroy-medium);
-    font-size: var(--font-body-size);
-    font-weight: var(--font-body-weight);
-
-    text-transform: uppercase;
-    text-decoration: underline solid 1.4px;
-    text-underline-offset: 10px ;
-}
-
-.logo-footer p {
-    color: var(--color-neutral-white);
+    min-width: 292px;
 }
 
 .icon-social{
@@ -467,13 +466,10 @@ footer {
     transform: translateY(-10px);
 }
 
-.content-footer {
-    display: flex;
-}
-
 .content-links-footer {
+    width: 100%;
     display: flex;
-    gap: 70%;
+    gap: 40px;
 }
 
 .content-links-footer h2 {
@@ -482,32 +478,11 @@ footer {
     font-family: var(--font-gilroy-medium);
 }
 
-.logo-footer p {
-    color: var(--color-neutral-black-opacity);
-    font-family: var(--font-gilroy-medium);
-    font-size: 24px;
-    font-weight: var(--font-body-weight);
-
-    color: var(--color-neutral-white);
-
-    text-transform: uppercase;
-    text-decoration: underline solid 2px;
-    text-underline-offset: 10px ;
-
-    cursor: pointer;
-}
-
-.content-links-footer {
-    width: 100%;
-    display: flex;
-    gap: 40px;
-}
-
 .group-links-footer {
     display: flex;
     flex-direction: column;
     gap: 24px;
-    width: 30%;
+    width: 280px;
 }
 
 .list-ancoras-footer {
